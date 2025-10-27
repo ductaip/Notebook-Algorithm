@@ -13,7 +13,7 @@ vector<bool> visited;
 vector<int> topo;
 
 void nhap() {
-    cin >> n >> m;
+    cin >>  m;
     visited.resize(n+1, false);
     for(int i = 0; i < m; i++) {
         int x, y; cin >> x >> y;
