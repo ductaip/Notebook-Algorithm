@@ -1,4 +1,13 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <string>
+#include <vector>
+#define ll long long
+#define ii pair<int,int>
+#define fi first 
+#define se second
+#define pb push_back
+#define FOR(i, a, b) for (int i = a; i < b; i++)
+#define RFOR(i, a, b) for (int i = a; i >= b; i--)  
 using namespace std;
 
 long long a[1000005];
